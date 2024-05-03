@@ -1,0 +1,132 @@
+/*
+code by Aditya Gupta
+For Contact Mail me on => ad1123itya@gmail.com
+Find me on instagram _its._.aadi
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.nav {
+  display: flex;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.677);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.nav img {
+  width: 12em;
+}
+#language {
+  padding: 8px 15px;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+#language option {
+  color: black;
+}
+.nav-btn {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #c11119;
+}
+.hero {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../img/hero.jpg");
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.hero-conent {
+  background-color: rgba(0, 0, 0, 0.677);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-conent h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.hero-conent h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.hero-input {
+  outline: none;
+  border: 0.5px solid lightgray;
+  background-color: rgba(44, 44, 44, 0.538);
+  padding: 20px 200px 20px 10px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.hero-btn {
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #c11119;
+  color: white;
+  cursor: pointer;
+}
+
+.section2 {
+  background-color: black;
+  border-top: 10px solid rgb(29, 29, 29);
+  border-bottom: 10px solid rgb(29, 29, 29);
+  width: 100%;
+  display: flex;
+}
+.s2-left {
+  background-color: black;
+  width: 50%;
+  height: 70vh;
+  padding: 10% 2% 10% 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section2 .s2-left h1 {
+  font-size: 3.1rem;
+  /* background-color: #c11119; */
+}
+.section2 .s2-left h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 0 0;
+  font-weight: 500;
+  /* background-color: #c11119; */
+}
+.s2-right {
+  background-color: black;
+  width: 50%;
+  height: 70vh;
+  padding: 3% 5% 3% 2% ;
+}
